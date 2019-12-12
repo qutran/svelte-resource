@@ -1,0 +1,36 @@
+{
+  "name": "svelte-resource",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "unpkg": "src/index.js",
+  "svelte": "src/index.js",
+  "typings": "typings.d.ts",
+  "license": "MIT",
+  "author": "Dmitry Kutran <kutran.dmitry@gmail.com> (https://github.com/qutran)",
+  "homepage": "https://github.com/qutran/svelte-resource",
+  "repository": "github:qutran/svelte-resource",
+  "bugs": "https://github.com/qutran/svelte-resource/issues",
+  "description": "Suspense implementation for svelte",
+  "keywords": [
+    "svelte",
+    "resource",
+    "suspense",
+    "lazy"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "@testing-library/svelte": "^1.11.0",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "svelte": "^3.16.0",
+    "svelte-jester": "^1.0.3"
+  },
+  "peerDependencies": {
+    "svelte": "^3.*"
+  },
+  "scripts": {
+    "test": "jest --watchAll"
+  }
+}

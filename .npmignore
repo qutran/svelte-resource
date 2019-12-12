@@ -1,0 +1,9 @@
+.DS_Store
+package-lock.json
+coverage
+prettier.config.js
+__tests__
+.babelrc
+.npmignore
+jest.config.js
+README.md
